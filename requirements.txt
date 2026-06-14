@@ -1,0 +1,22 @@
+# pytorch
+torch
+torchvision
+
+# NLP / Transformers
+transformers
+tokenizers
+
+# Interface démo
+gradio
+
+# Tracking expériences
+wandb
+
+#manipulation des donnees 
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# Progression
+tqdm
