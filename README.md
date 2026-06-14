@@ -170,7 +170,7 @@ bert-classification-bbc-news-text
 ### 1 — Cloner le repo
 
 ```bash
-git clone https://github.com/[votre-username]/bert-classification-bbc.git
+git clone https://github.com/fatoubdieng/bert-classification-bbc.git
 cd bert-classification-bbc
 ```
 
