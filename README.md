@@ -1,8 +1,8 @@
 # BBC News Text Classifier — Fine-tuning BERT
 
-**Devoir Pratique n°3 avec pytorch**
 **Classification de texte : Fine-tuning de BERT**
-**DIT 2026 — Dakar Institute of Technology**
+**Master2 2026 — Dakar Institute of Technology**
+**Binômes** Fatou DIENG & Zana Baba stephane Coulibaly
 
 ##  Dataset choisi
 
@@ -304,17 +304,6 @@ Un léger overfitting est détectable à l'epoch 4 :
 - La val_loss se stabilise à 0.0842 tandis que la train_loss continue de chuter
 
 
-
-### Points de vigilance respectés
-
-- ✅ Masque d'attention (`attention_mask`) inclus dans chaque batch
-- ✅ Learning rate faible (2e-5) — catastrophic forgetting évité
-- ✅ `model.eval()` + `torch.no_grad()` pendant la validation
-- ✅ Labels entiers (`torch.long`) — requis par CrossEntropyLoss
-- ✅ Seed fixée (42) pour `random`, `numpy`, `torch`, `cuda`
-- ✅ Gradient clipping (`max_norm=1.0`) — gradients explosifs évités
-- ✅ Boucle d'entraînement PyTorch **manuelle** (pas de Trainer HuggingFace)
-- ✅ AdamW avec weight decay séparé (biais et LayerNorm exclus)
 
 ## Difficultés rencontrées
 
