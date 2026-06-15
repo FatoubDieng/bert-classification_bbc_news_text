@@ -56,7 +56,7 @@
 ------------------------------
 | tech | 347         | 16.3% |
 
-> ![alt text](image.png)
+<img width="1483" height="734" alt="Image" src="https://github.com/user-attachments/assets/8e4351af-26a6-45a0-84ae-d0e65d2a5a11" />
 
 **Équilibre des classes** : ratio max/min = **1.46** ≤ 2:1 : classes équilibrées 
 Des poids de classes ont néanmoins été appliqués dans `CrossEntropyLoss` par précaution :
@@ -64,7 +64,7 @@ Des poids de classes ont néanmoins été appliqués dans `CrossEntropyLoss` par
 
 ### Distribution des longueurs de textes
 
-> ![alt text](image-1.png)
+<img width="1484" height="584" alt="Image" src="https://github.com/user-attachments/assets/26822d00-a74e-4b22-848d-937413e4bfd9" />
 
 Le 95e percentile est à 732 mots → **max_length = 512 tokens** choisi
 (les textes BBC sont longs, truncation appliquée aux textes dépassant 512 tokens).
@@ -247,7 +247,8 @@ python demo.py
 | **Meilleur epoch**        | **4**      |
 
 ### Courbes d'apprentissage
-> ![alt text](image-2.png)
+<img width="1935" height="742" alt="Image" src="https://github.com/user-attachments/assets/17b3ca22-7270-4897-9da9-9cf2f93c59ca" />
+
 
 **Observations** :
 - BERT atteint **95.54% de val accuracy dès l'epoch 1** — démonstration spectaculaire du transfer learning
@@ -258,7 +259,7 @@ python demo.py
 
 ### Matrice de confusion
 
-> ![alt text](image-3.png)
+<img width="908" height="882" alt="Image" src="https://github.com/user-attachments/assets/a52c2788-971c-4ee1-a952-a471c1013445" />
 
 ### Lien WandB
 
@@ -269,7 +270,10 @@ https://wandb.ai/bintousalih-dakar-institute-of-technology/dit-2026-bert-nlp/run
 
 ## Interface Gradio
 
-> ![alt text](image-4.png) ![alt text](image-5.png)
+<img width="1890" height="856" alt="Image" src="https://github.com/user-attachments/assets/851185d6-3f64-405c-b47e-210019344a28" />
+
+<img width="1879" height="870" alt="Image" src="https://github.com/user-attachments/assets/fd54d540-0131-4cf5-a561-054ca5d5c5e0" />
+
 
 L'interface permet de :
 - Saisir un texte BBC News en anglais
